@@ -1,0 +1,273 @@
+body {
+    background-color: rgb(0, 0, 0);
+    padding-bottom: 2vmin;
+    padding-left: 2vmin;
+    color: white;
+}
+
+
+#logo {
+    height: 20vmin;
+}
+
+
+.Header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10vmin;
+    padding-right: 8vmin;
+}
+
+
+#lang {
+    background-color: rgb(112, 108, 108);
+    color: white;
+    border-radius: 15px;
+    height: 26px;
+    width: 85px;
+    border-color: white;
+    text-align: center;
+}
+
+
+#signbtn {
+    border-radius: 15px;
+    height: 30px;
+    width: 65px;
+    background-color: white;
+    text-align: center;
+    color: black;
+}
+
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2vmin;
+}
+
+
+.tabox {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.emailbox {
+    display: flex;
+    gap: 1.5vmin;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+#email {
+    color: white;
+    background-color: rgb(99, 96, 96);
+    border-radius: 27px;
+    height: 40px;
+    width: 330px;
+    font-size: medium;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    padding-left: 3vmin;
+}
+
+#email::placeholder {
+    color: rgb(255, 255, 255);
+}
+
+
+#btn1 {
+    background-color: rgb(255, 0, 0);
+    color: white;
+    border: none;
+    border-radius: 27px;
+    font-size: medium;
+    height: 43px;
+    width: 150px;
+}
+
+
+.curve {
+    height: 10vmin;
+    width: 100%;
+    border-radius: 50% 50% 0 0;
+    border-top: 6px solid rgb(199, 22, 90);
+}
+
+
+/*....................................*........................................ */
+/* backimg responsive:-*/
+
+.backimg {
+  background-image: url("assets/bgimg.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: scroll;
+  width: 100%;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+
+
+@media (max-width: 768px) {
+  .backimg {
+    height: auto;
+    background-size: cover;
+    background-position: top center;
+  }
+
+  .backimg h1,
+  .backimg p,
+  .backimg input,
+  .backimg {
+    font-size: 4vw;
+  }
+}
+
+/* ....................................*........................................ */
+
+
+.sh1 {
+    border-radius: 2vmin;
+    height: 250px;
+    width: 140px;
+}
+
+.sh1:hover {
+    transform: scale(1.1);
+    transition: 0.4s;
+
+}
+
+
+.trbox {
+    color: white;
+}
+
+
+.allimgs {
+    gap: 5vmin;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.alien {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 5vmin;
+}
+
+
+#box, #box1, #box2, #box3 {
+    color: blanchedalmond;
+    background: linear-gradient(to right, rgb(47, 46, 46), rgb(153, 141, 151), rgb(47, 46, 46));
+    height: 230px;
+    width: 265px;
+    text-align: center;
+    border-radius: 25px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 3vmin;
+    padding-bottom: 2vmin;
+
+}
+
+
+#boxss {
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+    border: 1px solid black;
+}
+
+
+.resbox {
+    color: white;
+    padding-bottom: 7vmin;
+    padding-top: 7vmin;
+}
+
+
+#clr {
+    color: rgb(207, 211, 222);
+}
+
+
+.sec {
+    color: white;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 5vmin;
+    padding-top: 2vmin;
+}
+
+
+.bigdv, a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    margin: 10px 7px;
+}
+
+
+.smldv {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: left;
+    gap: 10px 30px;
+    text-align: center;
+    margin: auto;
+    font-size: 2.3vmin;
+}
+
+.smldv a {
+    min-width: 150px;
+}
+
+@media screen and (max-width:600px) {
+    .smldv {
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .smldv a {
+        min-width: unset;
+    }
+}
+
+
+.identity {
+    text-align: center;
+    color: #fefefe;
+    font-size: 2.5vmin;
+    margin-top: 5vmin;
+    padding: 3vmin;
+    text-shadow:
+        0 0 5px cyan,
+        0 0 10px cyan,
+        0 0 20px cyan,
+        0 0 40px cyan;
+}
