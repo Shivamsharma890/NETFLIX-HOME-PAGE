@@ -109,7 +109,7 @@ body {
 /* backimg responsive:-*/
 
 .backimg {
-  background-image: url("assets/bgimg.jpg");
+  background-image: url("bgimg.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -272,3 +272,4 @@ body {
         0 0 40px cyan;
 
 }
+
